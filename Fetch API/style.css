@@ -1,0 +1,13 @@
+.card-wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card-item{
+    border: 1px solid #aaa;
+    padding: 30px;
+}
+.id{
+    display: flex;
+    justify-content: space-between;
+}

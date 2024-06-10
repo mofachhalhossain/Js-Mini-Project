@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+
+body {
+  font-family: "Caveat", cursive;
+  font-style: normal;
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 55px;
+}
+.accordion-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.left {
+  width: 50%;
+}
+.right img {
+  max-width: 300px;
+}
+.accordion-item h2 {
+  font-size: 32px;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+}
+.accordion-item p {
+  font-size: 24px;
+  display: none;
+  transition: 1s ease-in-out;
+}
+.accordion-item.active .accordion-content {
+  display: block;
+}
